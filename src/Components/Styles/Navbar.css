@@ -1,0 +1,93 @@
+nav{
+    margin-bottom:12px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 80px; */
+    /* box-shadow: 2px 5px 10px black; */
+  }
+  
+  .logo{
+    width: 90px;
+    margin-left: 20px;
+  }
+  
+  .hamburger{
+    /* font-size: 60px; */
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  
+  .left{
+    display: flex;
+    align-items: center;
+  }
+  
+  .center{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  
+  .center input{
+    width: 500px;
+    border-radius: 16px 0px 0px 16px;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+    border: 1px solid grey;
+  }
+  
+  .center button{
+    width: 60px;
+    border-radius: 0px 16px 16px 0px;
+    border: 1px solid grey;
+    background-color: #ebe9e9;
+    box-sizing:border-box;
+  }
+  
+  .search{
+    width: 24px;
+    color: rgb(97, 95, 95);
+  }
+  
+  .right{
+    display: flex;
+    width: 180px;
+    justify-content: space-evenly;
+  }
+  
+  .video{
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    border-radius: 50%;
+  }
+  
+  .video:hover{
+    background-color: rgb(222, 220, 220);
+  }
+  
+  .bell{
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    border-radius: 50%;
+  }
+  
+  .bell:hover{
+    background-color: rgb(222, 220, 220);
+  }
+  
+  .user{
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    border-radius: 50%;
+  }
+  
+  .user:hover{
+    background-color: rgb(222, 220, 220);
+  }
